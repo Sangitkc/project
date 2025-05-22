@@ -1,0 +1,125 @@
+.contact{
+   padding-top: 100px;
+   height: 50vh;
+   color: black;
+   padding-left: 15vh;
+}
+.head{
+   display: block;
+   width: 11%;
+}
+.head .one h1{
+   text-transform: uppercase;
+   font-size: 36px;
+   line-height: 1.2;
+}
+.two p{
+   font-size: 14px;
+   margin-top: 7px;
+   font-weight: 900;
+   color: #ea0029;
+}
+.row{
+   margin-top: 70px;
+   display: flex;
+   gap: 100px;
+   margin-left: 30vh;
+}
+.left{
+   background: #FAFAFA;
+   padding: 0px 15px;
+   width: 450px;
+}
+.inner{
+   display: block;
+   padding-bottom: 20vh;
+}
+.inner h2{
+ padding-top: 3vh;
+ margin-left: 50px;
+ line-height: 1.2;
+ font-size: 24px;
+}
+.right{
+   width: 40%;
+}
+.form-group{
+   margin-top: 24px;
+   padding-left: 7px;
+   border-bottom: 1px solid #c8c8ca;
+}
+.form-group input{
+   outline: none;
+   border: none;
+   font-size: 17px;
+   margin-bottom: 2vh;
+}
+
+.last{
+   margin-top: 20px;
+   padding-left: 7px;
+   border-bottom: 1px solid #c8c8ca;
+}
+.last input{
+   outline: none;
+   border: none;
+   font-size: 17px;
+   margin-bottom: 5vh;
+}
+.last1 button {
+   margin-top: 7vh;
+   outline: none;
+   border: none;
+   padding: 10px 32px;
+   background: #EA0029;
+   color: white;
+   font-size: 16px;
+   border-radius: 5px; 
+}
+.last1 button:hover{
+   cursor: pointer;
+   background: black;
+}
+.value{
+   display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+   gap: 10px;
+   margin-top: 30px;
+   margin-bottom: 10px solid #EA0029;
+   padding-bottom: 10px;
+   width: 100%;
+}
+.rg{
+   max-width: 200px;
+   margin-left: 13vh;
+   width: 45%;
+}
+.lg p{
+   font-weight: 1000;
+}
+.lg{
+}
+.lg img{
+   width: 20%;
+}
+
+.rg h4{
+   margin-bottom: 7px;
+   margin-top: 7px;
+}
+.till{
+   padding-right: 20vh;
+}
+.icons{
+   display: flex;
+   gap: 10px;
+   margin-left: 40px;
+   margin-top: 20px;
+   align-items: center;
+}
+.icons img{
+   width: 100%;
+   border-radius: 100px;
+   cursor: pointer;
+}

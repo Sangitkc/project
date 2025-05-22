@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  background: #F1E7E7;
+  color: black;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ font-family: "Poppins", sans-serif;
+}
+.todo {
+  width: 70vh;
+  min-height: 30vh;
+  height: auto;
+  box-shadow: 0 0 5vh black;
+  margin-left: 60vh;
+  margin-top: 30vh;
+}
+h1{
+  text-align: center;
+  margin-bottom: 2vh;
+}
+.mid{
+  border: 2px solid aliceblue;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  padding: px 10px;
+  margin-left: 15vh;
+  border-radius: 8px;
+}
+.mid input{
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  padding: 10px;
+}
+.mid button{
+  border: 0;
+  outline: 0;
+  padding: 1px 20px ;
+  background-color: rgb(216, 213, 213);
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.im{
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  padding-left: 18vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.btn{
+  margin-right: 1vh;
+  
+}
+.btn button{
+  border: 0;
+  outline: 0;
+  background: lightgray;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-right: 2vh;
+  cursor: pointer;
+}

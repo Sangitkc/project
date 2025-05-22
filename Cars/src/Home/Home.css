@@ -1,0 +1,38 @@
+
+.home{
+   width: 100%;
+   height: 100%;
+   background-color: darkgrey;
+}
+.home h2{
+   text-align: center;
+   color: #FF7F50;
+   font-size: 50px;
+   margin-bottom: 30px;
+   font-weight: 800px;
+   padding-top: 90px;
+}
+.cars{
+   display: flex;
+   align-items: center;
+   justify-content:space-evenly;
+}
+.car{
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   margin-bottom: 50px;
+}
+.car img{
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+}
+.text{
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.text p{
+   font-size: 16px;
+   color: black;
+}

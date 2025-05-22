@@ -1,0 +1,44 @@
+.model{
+   width: 100%;
+   background-color: #F5EFFF;
+   height: 150vh;
+   color: black;
+   padding-top: 100px;
+}
+.cars{
+   display: flex;
+   justify-content: space-evenly;
+}
+.cars img{
+   border-radius: 5px;
+}
+.model h2{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 800;
+   margin-bottom: 30px;
+   color: firebrick;
+}
+.model h2 img{
+   width: 10%;
+   border-radius: 100px;
+}
+.head{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+   margin-left: 650px;
+}
+.head1{
+   margin-top: 40px;
+}
+.head1 h2 img{
+   width: 2%;
+}
+.head2{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 650px;
+}

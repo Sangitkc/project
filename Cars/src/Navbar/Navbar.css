@@ -1,0 +1,57 @@
+.navbar{
+   background-color: black;
+   padding: 12px 6%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   list-style: none;
+   font-size: 18px;
+   position: fixed;
+   color: white;
+}
+.navbar a{
+   text-decoration: none;
+   background: transparent;
+   color: white;
+}
+.navbar .left{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   background: black;
+   gap: 70px;
+}
+.navbar .right{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 70px;
+   background: transparent;
+}
+.centre img{
+   width: 8%;
+   background: black;
+   cursor: pointer;
+}
+.centre{
+   padding: 1px;
+   background: white;
+   border-radius: 8px;
+   color: black;
+   width: 20%;
+   padding: 10px 16px;
+   display: flex;
+   justify-content: space-between;
+}
+.centre input{
+   outline: none;
+   border: none;
+   color: black;
+   font-size: 16px;
+}
+.navbar li{
+   cursor: pointer;
+   list-style: none;
+   text-decoration: none;
+}

@@ -1,0 +1,99 @@
+.navbar{
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   padding-top: 1vh;
+   background: white;
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   padding-bottom: 2vh;
+}
+.link{
+   display: flex;
+   align-items: center;
+}
+.menu {
+   width: 10%;
+   color: black;
+   cursor: pointer;
+   margin-right: 2vh;
+}
+.logo{
+   width: 60%;
+}
+.left{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-left: 2vh;
+}
+.right img{
+   width: 20%;
+}
+.tom{
+   border-radius: 50%;
+}
+.right{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.mid button{
+   border: 0;
+   outline: 0;
+   padding: 11px 18px;
+   background-color: black;
+   color: white;
+   border-radius: 11px;
+   font-size: 16px;
+   cursor: pointer;
+}
+.mid{
+   display: flex;
+   align-items: center;
+   border: 1.4px solid gray;
+   border-radius: 10px;
+   justify-content: space-between;
+   height: 5vh;
+}
+.mid input{
+   border: 0;
+   outline: 0;
+   padding-right: 25vh;
+   background: white;
+   padding-left: 3vh;
+   font-size: 15px;
+}
+.search{
+   padding-right: 2vh;
+   cursor: pointer;
+}
+.jjj{
+ margin-left: 30vh;
+}
+.mnn{
+   display: flex;
+   align-items: center;
+}
+.channel-logo{
+   margin-top: 10vh;
+   width: 90%;
+   border-radius: 50%;
+   margin-left: 10vh;
+      margin-bottom: 5vh;
+}
+.video-thumbnail{
+   width: 130%;
+   border-radius: 12px;
+      margin-bottom: 3vh;
+}
+.mnn-tit {
+   margin-left: 13vh;
+}
+.mnn-tit p{
+   margin-left: 2vh;
+   margin-top: 1vh;
+   font-size: 15px;
+   color: #555;
+}

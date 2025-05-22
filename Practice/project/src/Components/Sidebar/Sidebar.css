@@ -1,0 +1,197 @@
+.sidebar{
+   padding-top: 10vh;
+   width: 20vh;
+}
+.home img{
+   width: 15%;
+   cursor: pointer;
+}
+.home{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-bottom: 2vh;
+   cursor: pointer;
+}
+.home p{
+   display: inline-flex;
+   align-items: center;
+}
+.shorts{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 8px;
+   margin-bottom: 1vh;
+   cursor: pointer;
+}
+.shorts p{
+   display: inline-flex;
+   align-items: center;
+}
+.shorts img{
+   width: 20%;
+   cursor: pointer;
+}
+.subscription{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-top: 5px;
+   margin-left: 4px;
+   cursor: pointer;
+}
+.subscription p{
+   display: inline-flex;
+   align-items: center;
+   margin-left: 10px;
+}
+.subscription img{
+   width: 20%;
+   margin-left: 2vh;
+   cursor: pointer;
+}
+hr{
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+   width: 20vh;
+}
+ h3{
+   margin-left: 1vh;
+}
+.pic img{
+   width: 20%;
+   border-radius: 50%;
+}
+.jack{
+   margin-top: 1vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.jack p{
+   display: inline-flex;
+   align-items: center;
+}
+.tom{
+   margin-top: 1vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.tom p{
+   display: inline-flex;
+   align-items: center;
+}
+.cameron{
+   margin-top: 1vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.cameron p{
+   display: inline-flex;
+   align-items: center;
+}
+.megan{
+   margin-top: 1vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.megan p{
+   display: inline-flex;
+   align-items: center;
+}
+.trending img{
+   width: 25%;
+   margin-left: 1vh;
+   cursor: pointer;
+}
+.trending{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   justify-content: space-evenly;
+}
+.trending p{
+   display: inline-flex;
+   align-items: center;
+   margin-left: 1vh;
+   
+}
+.music img{
+   width: 25%;
+   cursor: pointer;
+}
+.music{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+.music p{
+   display: inline-flex;
+   align-items: center;
+}
+.gaming img{
+   width: 25%;
+   cursor: pointer;
+}
+.gaming{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+.gaming p{
+   display: inline-flex;
+   align-items: center;
+}
+.sports img{
+   width: 25%;
+   cursor: pointer;
+}
+.sports{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+.sports p{
+   display: inline-flex;
+   align-items: center;
+}
+.small-sidebar p, .small-sidebar h3, .small-sidebar hr, .small-sidebar .middle, .small-sidebar .last {
+   display: none;
+}
+.small-sidebar .home,.small-sidebar.shorts{
+   margin-bottom: 1vh;
+}
+.small-sidebar .home img,.small-sidebar .shorts img,.small-sidebar.subscription img{
+   width: 35%;
+}
+.small-sidebar .subscription img{
+   width: 40%;
+   margin-right: 2vh;
+}
+.value{
+   background: white;
+   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+   width: 22vh;
+   height: 100vh;
+}
+.small-sidebar img{
+   width: 10000%;
+}
+
+.home.active img,
+.gaming.active img,
+.sports.active img,
+.shorts.active img,
+.music.active img,
+.trending.active img
+{
+   padding-bottom: 2px;
+   border-bottom: 3px solid red;
+}

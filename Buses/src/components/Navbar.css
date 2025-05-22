@@ -1,0 +1,49 @@
+.navbar{
+   height: 8vh;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 18px;
+      background-color: #6b4423; /* Warm Brown */
+      color: #fff4e6; /* Cream */
+    
+}
+.right{
+   display: flex;
+   align-items: center;
+   gap: 10vh;
+   margin-right: 20vh;
+}
+.image{
+   margin-left: 4vh;
+   cursor: pointer;
+}
+.home{
+   margin-right: 20vh;
+   cursor: pointer;
+}
+.right p{
+   cursor: pointer;
+}
+.input{
+   margin-right: 27vh;
+   background: lightgray;
+   color: darkgray;
+   border-radius: 7px;
+}
+.input input{
+   border: 0;
+   outline: 0;
+   padding: 10px 30px;
+   background: lightgray;
+   color: black;
+   border-radius: 5px;
+}
+.input button{
+   border: 0;
+   outline: 0;
+   padding:10px 17px;
+   border-radius: 5px;
+   background: #6b4423;
+   color: white;
+}
